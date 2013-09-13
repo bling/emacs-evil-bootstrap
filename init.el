@@ -18,5 +18,8 @@ re-downloaded in order to locate PACKAGE."
 (package-initialize)
 
 (require-package 'evil)
+
+(setq evil-search-module 'evil-search)
+
 (require 'evil)
 (evil-mode t)
