@@ -11,11 +11,11 @@ Install
 Settings
 ========
 
-This bootstrap changes 3 settings that are enabled by default:
+This bootstrap changes 3 evil-mode settings from their default values:
 
-*  `evil-search-module` is set to the `evil-search` module instead of the default `isearch` module.
-*  `evil-want-C-u-scroll` is set true.  The default binding is the Emacs function `universal-arguments`.
-*  `evil-C-w-in-emacs-state` is set to true.  This gives you window bindings in all of Emacs (instead of the default which cuts a region).
+*  `evil-search-module` is set to `evil-search` instead of the default `isearch` module.
+*  `evil-want-C-u-scroll` binds `C-u` to scroll up instead of the default `universal-argument` function.
+*  `evil-C-w-in-emacs-state` binds `C-w` to control windows just like Vim instead of the default of cutting a region.
 
 License
 =======
